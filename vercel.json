@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/Icy-Penguin/Build/(.*).unityweb",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        }
+      ]
+    }
+  ]
+}
