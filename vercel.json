@@ -1,7 +1,25 @@
 {
   "headers": [
     {
-      "source": "/Icy-Penguin/Build/:path*",
+      "source": "/Build/Build.data.unityweb",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        }
+      ]
+    },
+    {
+      "source": "/Build/Build.wasm.code.unityweb",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        }
+      ]
+    },
+    {
+      "source": "/Build/Build.wasm.framework.unityweb",
       "headers": [
         {
           "key": "Content-Encoding",
