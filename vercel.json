@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/Icy-Penguin/Build/(.*).unityweb",
+      "source": "/Icy-Penguin/Build/:path*",
       "headers": [
         {
           "key": "Content-Encoding",
